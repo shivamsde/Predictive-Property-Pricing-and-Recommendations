@@ -1,6 +1,7 @@
+
 ## 📌 Overview
 
-A comprehensive end-to-end machine learning project that delivers accurate property price predictions and intelligent recommendations, combining predictive modeling with user-centric property matching. Designed to support real-world decision-making for buyers, sellers, and real estate platforms.
+A comprehensive end-to-end machine learning project that delivers accurate property price predictions and intelligent recommendations, combining predictive modeling with user-centric property matching. Designed to support real-world decision-making for home seekers and platform users.
 
 ---
 
@@ -11,11 +12,11 @@ A comprehensive end-to-end machine learning project that delivers accurate prope
 
 ---
 
-## ✅ Business Benefits
+## ✅ User Benefits
 
-- Reduced pricing errors from **₹94L MAE to ₹25L MAE**, improving platform trust and conversion.
-- Personalized property discovery leads to increased **user engagement** and **decision efficiency**.
-- Enables real estate businesses to make **data-driven pricing decisions**.
+- 🎯 **Price Confidence**: Delivers dependable property valuations to help users evaluate affordability and fairness.  
+- ⚡ **Simplified Search**: Recommends properties tailored to individual needs, saving time and reducing manual effort.  
+- 🌍 **Contextual Awareness**: Highlights important local context—like nearby infrastructure and locality patterns—to support better choices.
 
 ---
 
@@ -49,7 +50,8 @@ A comprehensive end-to-end machine learning project that delivers accurate prope
 
 - Trained on engineered dataset with historical price and feature inputs.
 - Reduced MAE from **₹94L** to **₹25L** using Random Forest.
-- Supports informed pricing for platforms and users.
+- Started with SVR as the baseline (₹62L MAE), outperforming models like Lasso, Linear Regression, Decision Tree, AdaBoost, and XGBoost.
+- Supports informed pricing decisions for users.
 
 ---
 
@@ -60,7 +62,7 @@ A comprehensive end-to-end machine learning project that delivers accurate prope
 - Leverages spatial clustering and user preferences.
 - Computes property similarity based on:
   - Location proximity
-  - Feature match (e.g., size, type, amenities)
+  - Feature match (e.g., size, type, layout)
 - Surfaces high-relevance listings to improve discoverability.
 
 ---
@@ -70,6 +72,3 @@ A comprehensive end-to-end machine learning project that delivers accurate prope
 - **Integration with Real-Time Data Sources**: Connect to APIs for live market pricing and listings.
 - **Feedback-Driven Recommendations**: Incorporate user interaction data to refine suggestions.
 - **Enhanced Visual Analytics**: Add neighborhood-level dashboards with crime rates, schools, and transit scores.
-
----
-
